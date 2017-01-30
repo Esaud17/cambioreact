@@ -1,0 +1,23 @@
+{
+  "name": "reactjsfrontend",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "esaud17 <esaud17@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "react": "^15.4.2",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}

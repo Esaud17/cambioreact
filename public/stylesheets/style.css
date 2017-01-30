@@ -1,0 +1,101 @@
+body {
+  padding: 5px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #f9f9f9;
+}
+
+a {
+  color: #00B7FF;
+}
+table
+{
+	margin: 0px auto;
+	border-spacing: 0px;
+    border-collapse: collapse;
+    width: 100%;
+}
+table th , td
+{
+	text-align:center;
+	text-transform: uppercase;
+	height:  25px;
+	padding: 5px;
+}
+
+table th 
+{
+	background:  rgba(0,0,0,0.3);
+}
+
+body > table tr:nth-child(odd) {
+    background:#efefef;
+}
+
+body > table tr:nth-child(even) {
+    background:#ffffff ;
+}
+
+form 
+{
+	background:#efefef;
+	margin: 10px auto;
+}
+
+form input {
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	border: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#btnSubmit
+{
+	height: 42px;
+	width: 100%;
+	background: #16a085;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+}
+
+h1 
+{
+	color: #34495e;
+	box-shadow:rgba(0,0,0,.4) 0px 0px 5px inset ;
+	text-align: center;
+	padding: 5px;
+	background: #f4f4f4;
+	border-radius: 3px;
+}
+
+@media screen and (min-width: 993px){
+
+	table
+	{
+		width:  600px;
+
+	}
+	h1 
+	{
+		width:  600px;
+		margin: 40px auto;
+	}
+	form 
+	{
+		width: 605px;
+	}
+	
+
+}
+
+@media screen and (min-width: 240px) and (max-width:360px) {
+
+	h1
+	{
+		font-size: 17px;
+	}
+
+}

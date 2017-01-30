@@ -1,0 +1,53 @@
+extends layout
+
+block content
+	h1= title
+	form#formAddUser(name="autosadd",method="post",action="/add")
+		table
+			tr
+				td
+					input#inputUserName(type="text", placeholder="marca", name="marca")
+			tr
+				td
+					input#inputUserEmail(type="text", placeholder="modelo", name="modelo")
+			tr
+				td
+					input#inputUserEmail(type="text", placeholder="color", name="color")
+			tr
+				td
+					input#inputUserEmail(type="text", placeholder="placa", name="placa")
+			tr
+				td
+					input#inputUserEmail(type="text", placeholder="Año", name="year")
+			tr
+				td
+					button#btnSubmit(type="submit") Agregar
+
+	h1.
+		AUTOS REGISTRADOS
+	
+	table
+			tr
+				th.
+					MARCA
+				th.
+					MODELO
+				th.
+					COLOR
+				th.
+					PLACA
+				th.
+					AÑO
+
+			each auto, i in data
+				tr
+					td
+						span=auto.marca
+					td
+						span=auto.modelo
+					td
+						span=auto.color
+					td
+						span=auto.placa
+					td
+						span=auto.year

@@ -1,0 +1,94 @@
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background: rgb(255, 255, 255);
+}
+
+.card .card-title {
+  margin: 5px;
+}
+
+.card .card-title span {
+  font-size: .8em;
+  font-weight: bold;
+}
+
+.card .item {
+  padding: 0px;
+  margin: 3px;
+}
+
+.card .item * {
+  padding: 0px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.card .item .green {
+  color: #098830;
+}
+
+.card .item .symbol {
+  padding: 5px;
+}
+
+.card .item .getdata{
+  margin-bottom: 5px;
+}
+.card .item .getdata .data{
+  padding: 5px;
+  margin: 0px 5px;
+  border: none;
+  font-size: 1em;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0,0.3);
+}
+
+.card .item .setdata{
+  margin: 5px;
+  padding: 5px;
+  font-size: 1em;
+  background: #fff;
+  color: #000;
+  box-shadow: rgba(0, 0, 0,0.3) 0px 0px 2px inset;
+}
+
+.card .item .labeldata{
+  margin: 5px;
+  padding: 5px;
+  font-size: 1em;
+}
+
+.card .item .tag {
+  background: #394457;
+  color: #ffffff;
+}
+
+.card .item .value {
+  background: #ffffff;
+  color: #6c7e93;
+}
+
+.right{
+  text-align: right;
+}
+
+.left{
+  text-align: left;
+}
+
+.center{
+  text-align: center;
+}
+
+.blue{
+  color: #6c7e93
+}
+
+.red{
+  color: #d53d3d;
+}
+
+.diver{
+  border-bottom: 1px solid rgba(0, 0, 0,0.3);
+}
